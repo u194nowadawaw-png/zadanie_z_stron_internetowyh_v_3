@@ -6,6 +6,7 @@
     const speed = 10;
     let punkty = 0;
 
+
     document.addEventListener("keydown", function(event) {
         if (event.key === "ArrowUp") y -= speed;
         if (event.key === "ArrowDown") y += speed;
@@ -56,5 +57,9 @@
             }
         });
     }
-
+    if (x === 200 && y === 200) {
+    document.getElementById("klocek").style.background = "blue";  
+} else {
+    document.getElementById("klocek").style.background = "red";
+}
     setInterval(tworzenieKropki, 1000);
