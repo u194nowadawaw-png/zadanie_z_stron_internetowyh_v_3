@@ -57,4 +57,4 @@
         });
     }
 
-    setInterval(tworzenieKropki, 100);
+    setInterval(tworzenieKropki, 1000);
