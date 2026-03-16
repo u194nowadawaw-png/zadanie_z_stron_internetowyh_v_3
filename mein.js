@@ -30,7 +30,6 @@
 
         document.body.appendChild(kropka);
 
-        // Usunięcie po 2 sekundach
         setTimeout(() => {
             if (kropka.parentElement) {
                 kropka.remove();
@@ -58,4 +57,4 @@
         });
     }
 
-    setInterval(tworzenieKropki, 1000);
+    setInterval(tworzenieKropki, 100);
