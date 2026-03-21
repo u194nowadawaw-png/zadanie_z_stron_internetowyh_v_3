@@ -62,4 +62,4 @@
 } else {
     document.getElementById("klocek").style.background = "red";
 }
-    setInterval(tworzenieKropki, 1000);
+    setInterval(tworzenieKropki, 100);
