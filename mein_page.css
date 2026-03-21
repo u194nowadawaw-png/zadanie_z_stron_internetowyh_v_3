@@ -29,3 +29,25 @@
             top: 10px;
             left: 10px;
         }
+               h1 {
+            display: inline-block;
+            cursor: pointer;
+        }
+
+                #tytul {
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .obrot {
+            animation: spin 1s;
+        }
+
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(359deg);
+            }
+        }
