@@ -28,4 +28,19 @@ h1{
     position:absolute;
     top:20px;
     width:100%;
+
+        display: inline-block;
+    cursor: pointer;
+    transition: transform 0.6s;
+}
+
+
+.obrot {
+    transform: rotate(360deg);
+    animation: spin 1s linear;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
 }
